@@ -1,0 +1,57 @@
+.navbar{
+    height: max(80px, 5vw);
+    padding: 0 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.logo{
+    content: url("../../../assets/nav/logo.png");
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: max(20px, 2.5vw);
+}
+
+.nav-links a{
+    font-size: max(12px, 0.85vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: max(15px, 1vw);
+}
+
+
+
+.arr-down{
+    content: url("../../../assets/nav/Icon\ ionic-ios-arrow-down.png");
+}
+
+.headphone{
+    content: url("../../../assets/nav/Icon\ feather-headphones.png");
+}
+
+
+
+
+.hamburger{
+    cursor: pointer;
+    display: none;
+}
+
+.line{
+    width: 30px;
+    height: 5px;
+    background: #000;
+}
+
+.line2{
+    margin: 5px 0;
+}

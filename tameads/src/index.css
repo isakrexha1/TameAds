@@ -1,0 +1,19 @@
+@font-face{
+  font-family: "poppins";
+  src: url("./fonts/Poppins-Regular.woff");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+  background-color: #0C0A2A;
+  color: white;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
