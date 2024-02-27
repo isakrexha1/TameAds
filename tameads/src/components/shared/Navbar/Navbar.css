@@ -101,9 +101,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5px     10px;
   }
   .nav-links a:hover {
     background-color: #2247ed;
+    
+    border-radius: max(5px, 0.5vw);
   }
 
   .nav-auth {

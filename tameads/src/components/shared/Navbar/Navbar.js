@@ -16,9 +16,9 @@ const Navbar = () => {
       </Link>
 
       <div className="hamburger" onClick={handleHamburgerClick}>
-        <div className={`line ${menuOpen ? "line-rotated" : ""}`}></div>
-        <div className={`line line2 ${menuOpen ? "line2-rotated" : ""}`}></div>
-        <div className={`line ${menuOpen ? "line-rotated" : ""}`}></div>
+        <div className="line"></div>
+        <div className="line line2"></div>
+        <div className="line"></div>
       </div>
 
       <div className={`nav-links flex ${menuOpen ? "nav-links-visible" : "nav-links-hidden"}`}>
