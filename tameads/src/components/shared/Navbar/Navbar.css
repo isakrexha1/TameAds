@@ -8,10 +8,11 @@
 
 .navbar a {
   text-decoration: none;
+  color: #001120;
 }
 
 .logo {
-  content: url("../../../assets/nav/logo.png");
+  content: url("../../../assets/nav/logoL.png");
 }
 
 .nav-links {
@@ -34,7 +35,7 @@
 }
 
 .arr-down {
-  content: url("../../../assets/nav/Icon\ ionic-ios-arrow-down.png");
+  content: url("../../../assets/nav/Icon\ ionic-ios-arrow-down.svg");
 }
 
 .sun {
@@ -42,7 +43,7 @@
 }
 
 .headphone {
-  content: url("../../../assets/nav/Icon\ feather-headphones.png");
+  content: url("../../../assets/nav/Icon\ feather-headphones.svg");
 }
 
 .contact {
@@ -58,6 +59,7 @@
   height: max(40px, 2.5vw);
   background-color: #2247ed;
   border-radius: max(20px, 2.5vw);
+  color: #fff !important;
 }
 
 .hamburger {
@@ -68,7 +70,7 @@
 .line {
   width: 30px;
   height: 4px;
-  background: #fff;
+  background: #000;
 }
 
 .line2 {
@@ -101,7 +103,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px     10px;
+    padding: 5px 10px;
   }
   .nav-links a:hover {
     background-color: #2247ed;
