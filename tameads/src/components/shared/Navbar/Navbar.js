@@ -1,44 +1,56 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import Advertisers from "./MegaMenu/Advertisers/Advertisers";
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const handleHamburgerClick = () => {
-    setMenuOpen(!menuOpen);
-  };
-
+ 
   return (
     <div className="navbar">
       <Link to="/" className="nav-logo flex">
         <div className="logo"></div>
       </Link>
 
-      <div className="hamburger" onClick={handleHamburgerClick}>
+      <div className="hamburger">
         <div className="line"></div>
         <div className="line line2"></div>
         <div className="line"></div>
       </div>
 
-      <div className={`nav-links flex ${menuOpen ? "nav-links-visible" : "nav-links-hidden"}`}>
-        <Link to="" >Advertisers
+      <div className="nav-links flex">
+        <div className="mega-menu-item">
+          <Link to="">Advertisers
           <div className="arr-down"></div></Link>
-
-        <Link to="" >Media Owners
+          <div className="mega-menu">
+            <Advertisers/>
+          </div>
+        </div>
+        <div className="mega-menu-item">
+          <Link to="">Media Owners
           <div className="arr-down"></div></Link>
-
-        <Link to="" >About Us
+          <div className="mega-menu">
+          <Advertisers/>
+          </div>
+        </div>
+        <div className="mega-menu-item">
+          <Link to="">About Us
           <div className="arr-down"></div></Link>
-
-        <Link to=""> Resources
+          <div className="mega-menu">
+          <Advertisers/>
+          </div>
+        </div>
+        <div className="mega-menu-item">
+          <Link to="">Resources
           <div className="arr-down"></div></Link>
-
+          <div className="mega-menu">
+          <Advertisers/>
+          </div>
+        </div>
         <Link to="">Ad Formats</Link>
       </div>
 
-      <div className={`nav-auth flex ${menuOpen ? "nav-links-visible" : "nav-links-hidden"}`}>
-        <Link to="" className="contact flex" > 
+      <div className='nav-auth flex'>
+        <Link to="" className="contact flex">
           <div className="headphone"></div>
           Contact</Link>
 

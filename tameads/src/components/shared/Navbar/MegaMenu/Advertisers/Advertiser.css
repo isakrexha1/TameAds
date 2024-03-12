@@ -1,0 +1,48 @@
+
+.layout {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: max(20px, 3vw);
+    margin-bottom: 10%;
+  }
+  
+  .layout-item {
+    display: flex;
+    gap: max(10px, 1vw);
+    width: 25%;
+    justify-content: space-between;
+  }
+  
+  .info-layout {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: max(15px, 1vw);
+  }
+  
+  .info-layout p {
+    margin: 0;
+    font-size: max(14px, 0.8vw);
+  }
+  
+  .service-info {
+    flex: 1;
+  }
+  
+  .icon-layout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon-lyt{
+    border: 1px solid rgb(181, 181, 181);
+    width: max(40px, 3vw);
+    height: max(40px, 3vw);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

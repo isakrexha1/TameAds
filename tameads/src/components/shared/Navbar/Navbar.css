@@ -1,9 +1,12 @@
+/* Navbar.css */
+
 .navbar {
   height: max(80px, 5vw);
   padding: 0 4%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative; /* Added for positioning of mega menus */
 }
 
 .navbar a {
@@ -19,6 +22,7 @@
   display: flex;
   align-items: center;
   gap: max(20px, 2.5vw);
+  position: relative; /* Added for positioning of mega menus */
 }
 
 .nav-links a {
@@ -77,49 +81,16 @@
   margin: 5px 0;
 }
 
-@media (max-width: 1190px) {
-  .hamburger {
-    display: block;
-    position: absolute;
-    right: 3.8%;
-    top: 1.5%;
-  }
-
-  .navbar {
-    flex-direction: column;
-    align-items: start;
-  }
-  .nav-links {
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-    margin: 20px 0;
-    
-  }
-
-  .nav-links a {
-    width: 100%;
-    font-size: max(20px, 1.5vw);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 10px;
-  }
-  .nav-links a:hover {
-    background-color: #2247ed;
-    
-    border-radius: max(5px, 0.5vw);
-  }
-
-  .nav-auth {
-    width: 100%;
-  }
-
-  .nav-links-hidden {
-    display: none;
-  }
-
-  .nav-links-visible {
-    display: flex;
-  }
+.mega-menu {
+  position: absolute;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none; /* Initially hide mega menu */
+  border-radius: 20px;
 }
+ /*
+.mega-menu-item:hover .mega-menu {
+  display: block; Show mega menu on hover 
+}
+
+*/
