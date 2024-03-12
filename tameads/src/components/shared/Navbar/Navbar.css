@@ -83,14 +83,18 @@
 
 .mega-menu {
   position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
   border: 1px solid #ccc;
   padding: 10px;
   display: none; /* Initially hide mega menu */
   border-radius: 20px;
 }
- /*
+
+
 .mega-menu-item:hover .mega-menu {
-  display: block; Show mega menu on hover 
+  display: block;   
 }
 
-*/
+

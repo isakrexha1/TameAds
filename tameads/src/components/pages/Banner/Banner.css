@@ -1,0 +1,62 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 7% 0;
+}
+
+.bn-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: max(20px, 1.5vw);
+    text-align: center;
+}
+
+.bn-info h1{
+    margin: 0;
+    font-size: max(50px, 3.25vw);  
+}
+.bn-info p{
+    width: 70%;
+}
+span{
+    color: #2247ed;
+    font-weight: bolder;
+}
+
+.banner-btn{
+    display: flex;
+    gap: max(40px, 2vw);
+}
+
+.btn-start{
+    width: max(140px, 8vw);
+    height: max(40px, 3vw);
+    background-color: #2247ed;
+    border-radius: 50px;
+    color: white;
+}
+
+.banner-btn a{
+    text-decoration: none;
+}
+
+.play-btn{
+    width: 50px;
+    height: 50px;
+    background-color: #6a739c;
+    border-radius: 50%;
+}
+
+.play-part{
+    display: flex;
+    gap: 10px;
+}
+
+
+.dashboard{
+    content: url("../../../assets/banner/dashboard.png");
+    width: 90%;
+}

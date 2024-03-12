@@ -1,25 +1,27 @@
-
+.advetiser-menu{
+    display: flex;
+}
 .layout {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: stretch;
     gap: max(20px, 3vw);
-    margin-bottom: 10%;
+    padding: 2% 0;
   }
   
   .layout-item {
     display: flex;
     gap: max(10px, 1vw);
-    width: 25%;
+    width: 40%;
     justify-content: space-between;
+    cursor: pointer;
   }
   
   .info-layout {
     width: 80%;
     display: flex;
     flex-direction: column;
-    gap: max(15px, 1vw);
+    gap: max(11px, 0.7vw);
   }
   
   .info-layout p {
@@ -36,13 +38,16 @@
     align-items: center;
     justify-content: center;
   }
+  .layout-item:hover .icon-lyt{
+    background-color: #2247ED;
+  }
   
   .icon-lyt{
-    border: 1px solid rgb(181, 181, 181);
     width: max(40px, 3vw);
     height: max(40px, 3vw);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(252, 244, 246);
   }
