@@ -36,25 +36,25 @@ span{
     height: max(40px, 3vw);
     background-color: #2247ed;
     border-radius: 50px;
-    color: white;
+    color: white !important;
 }
 
 .banner-btn a{
     text-decoration: none;
+    color: #000;
+}
+
+.play-link{
+    display: flex;
+    gap: max(10px, 0.75vw);
 }
 
 .play-btn{
-    width: 50px;
-    height: 50px;
-    background-color: #6a739c;
+    width: max(40px, 3vw);
+    height: max(40px, 3vw);
     border-radius: 50%;
+    background-color: darkgray;
 }
-
-.play-part{
-    display: flex;
-    gap: 10px;
-}
-
 
 .dashboard{
     content: url("../../../assets/banner/dashboard.png");

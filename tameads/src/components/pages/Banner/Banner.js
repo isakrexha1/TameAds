@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Banner.css";
+import play from "../../../assets/banner/Icon ionic-ios-play.svg"
 
 const Banner = () => {
   return (
@@ -16,15 +17,13 @@ const Banner = () => {
 
         <div className="banner-btn">
           <Link className="btn-start flex">Get Started</Link>
-          <div className="play-part">
-          <div className="play-btn flex">
-          </div>
-          <Link className="play-link flex">Play Video</Link>
-          </div>
+          <Link className="play-link flex">
+            <div className="play-btn flex"> <img src={play} alt="play"/> </div>
+            Play Video</Link>
         </div>
-
-        <div className="dashboard"></div>
       </div>
+
+      <div className="dashboard"></div>
     </div>
   );
 };

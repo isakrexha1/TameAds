@@ -24,9 +24,7 @@ const Advertisers = () => {
           );
         })}
       </div>
-      <div className="slider">
-        <h3>Slider</h3>
-      </div>
+
     </div>
   );
 };
