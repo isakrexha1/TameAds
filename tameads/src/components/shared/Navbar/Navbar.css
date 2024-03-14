@@ -26,7 +26,7 @@
 }
 
 .nav-links a {
-  font-size: max(12px, 0.85vw);
+  font-size: max(12.5px, 0.9vw);
   display: flex;
   align-items: center;
   gap: max(15px, 1vw);
@@ -92,9 +92,25 @@
   border-radius: 20px;
 }
 
-
 .mega-menu-item:hover .mega-menu {
   display: block;   
 }
 
+@media (max-width: 1200px) {
+  .contact{
+      display: none;
+  }
+}
 
+@media (max-width: 1024px) {
+  .nav-links{
+      display: none;
+  }
+
+  .nav-auth{
+      display: none;
+  }
+  .hamburger{
+      display: block;
+  }
+}

@@ -18,11 +18,15 @@ const Banner = () => {
         <div className="banner-btn">
           <Link className="btn-start flex">Get Started</Link>
           <Link className="play-link flex">
-            <div className="play-btn flex"> <img src={play} alt="play"/> </div>
+            <div className="play-btn flex"> <img src={play} alt="play"/></div>
             Play Video</Link>
         </div>
       </div>
 
+      <div className="img-banner">
+        <div className="rocket-right"></div>
+        <div className="rocket-left"></div>
+      </div>
       <div className="dashboard"></div>
     </div>
   );

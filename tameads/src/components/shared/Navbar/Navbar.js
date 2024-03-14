@@ -4,62 +4,73 @@ import "./Navbar.css";
 import Advertisers from "./MegaMenu/Advertisers/Advertisers";
 
 const Navbar = () => {
- 
   return (
     <div className="navbar">
       <Link to="/" className="nav-logo flex">
         <div className="logo"></div>
       </Link>
 
-      <div className="hamburger">
-        <div className="line"></div>
-        <div className="line line2"></div>
-        <div className="line"></div>
-      </div>
-
       <div className="nav-links flex">
         <div className="mega-menu-item">
-          <Link to="">Advertisers
-          <div className="arr-down"></div></Link>
+          <Link to="">
+            Advertisers
+            <div className="arr-down"></div>
+          </Link>
           <div className="mega-menu">
-            <Advertisers/>
+            <Advertisers />
           </div>
         </div>
         <div className="mega-menu-item">
-          <Link to="">Media Owners
-          <div className="arr-down"></div></Link>
+          <Link to="">
+            Media Owners
+            <div className="arr-down"></div>
+          </Link>
           <div className="mega-menu">
-          <Advertisers/>
+            <Advertisers />
           </div>
         </div>
         <div className="mega-menu-item">
-          <Link to="">About Us
-          <div className="arr-down"></div></Link>
+          <Link to="">
+            About Us
+            <div className="arr-down"></div>
+          </Link>
           <div className="mega-menu">
-          <Advertisers/>
+            <Advertisers />
           </div>
         </div>
         <div className="mega-menu-item">
-          <Link to="">Resources
-          <div className="arr-down"></div></Link>
+          <Link to="">
+            Resources
+            <div className="arr-down"></div>
+          </Link>
           <div className="mega-menu">
-          <Advertisers/>
+            <Advertisers />
           </div>
         </div>
         <Link to="">Ad Formats</Link>
       </div>
 
-      <div className='nav-auth flex'>
+      <div className="nav-auth flex">
         <Link to="" className="contact flex">
           <div className="headphone"></div>
-          Contact</Link>
+          Contact
+        </Link>
 
-        <Link><div className="sun"></div></Link>
+        <Link>
+          <div className="sun"></div>
+        </Link>
 
         <Link to="">Log in</Link>
-        <Link to="" className="sign-up flex">Sign Up</Link>
+        <Link to="" className="sign-up flex">
+          Sign Up
+        </Link>
       </div>
-
+      
+      <div className="hamburger">
+        <div className="line"></div>
+        <div className="line line2"></div>
+        <div className="line"></div>
+      </div>
     </div>
   );
 };

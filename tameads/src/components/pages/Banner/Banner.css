@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 7% 0;
 }
 
 .bn-info{
@@ -12,14 +11,16 @@
     flex-direction: column;
     gap: max(20px, 1.5vw);
     text-align: center;
+    margin: 5% 0 2.5% 0;
 }
 
 .bn-info h1{
     margin: 0;
-    font-size: max(50px, 3.25vw);  
+    font-size: max(40px, 3.25vw);  
 }
 .bn-info p{
     width: 70%;
+    font-size: max(15px, 0.9vw);
 }
 span{
     color: #2247ed;
@@ -58,5 +59,21 @@ span{
 
 .dashboard{
     content: url("../../../assets/banner/dashboard.png");
-    width: 90%;
+    width: 80%;
+}
+
+.rocket-left{
+    content: url("../../../assets/banner/63317ac7d01955a26badf7d3_Group\ 1000002628.png");
+    width: 20%;
+}
+.rocket-right{
+    content: url("../../../assets/banner/636b64f18c4c671e6e8948f5_flt01\ 1\ \(1\).png");
+    width: 20%;
+}
+
+.img-banner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
 }
