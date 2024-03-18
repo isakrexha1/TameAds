@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Advertisers from "./MegaMenu/Advertisers/Advertisers";
+import About from "./MegaMenu/About/About";
 
 const Navbar = () => {
   return (
@@ -35,7 +36,7 @@ const Navbar = () => {
             <div className="arr-down"></div>
           </Link>
           <div className="mega-menu">
-            <Advertisers />
+            <About />
           </div>
         </div>
         <div className="mega-menu-item">
