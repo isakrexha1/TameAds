@@ -1,15 +1,15 @@
-import React from "react";
-import { data } from "./AdvertiserData";
-import "./Advertiser.css";
+import React from 'react'
+import { data } from './MediaData';
+import "../Advertisers/Advertiser.css"
 
-const Advertisers = () => {
+const Media = () => {
   return (
     <div className="advetiser-menu">
       <div className="layout">
         {data.map((item) => {
           return (
             <div key={item.id} className="layout-item">
-              <div className="icon-layout flex">
+              <div className="icon-layout">
                 <div className="icon-lyt">
                   <img src={item.image} alt={item.title}/>
                 </div>
@@ -24,9 +24,8 @@ const Advertisers = () => {
           );
         })}
       </div>
-
     </div>
-  );
-};
+  )
+}
 
-export default Advertisers;
+export default Media

@@ -4,6 +4,7 @@ import "./Navbar.css";
 import Advertisers from "./MegaMenu/Advertisers/Advertisers";
 import About from "./MegaMenu/About/About";
 import Resources from "./MegaMenu/Resuorces/Resources";
+import Media from "./MegaMenu/Media/Media";
 
 const Navbar = () => {
   return (
@@ -28,7 +29,7 @@ const Navbar = () => {
             <div className="arr-down"></div>
           </Link>
           <div className="mega-menu">
-            <Advertisers />
+            <Media />
           </div>
         </div>
         <div className="mega-menu-item">

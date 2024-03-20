@@ -32,15 +32,22 @@
   .service-info {
     flex: 1;
   }
-  
-  .icon-layout{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .layout-item:hover .icon-lyt{
-    background-color: #3959eb;
-  }
+/* Shrink */
+.icon-layout {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.icon-layout:hover, .icon-layout:focus, .icon-layout:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
   
   .icon-lyt{
     width: max(40px, 3vw);
