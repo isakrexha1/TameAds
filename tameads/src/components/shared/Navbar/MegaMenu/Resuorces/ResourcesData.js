@@ -25,7 +25,7 @@ export const data = [
         id: 3, 
         title: 'Ads format',
         text: 'See The Adds',
-        image: group,
+        image: monetize,
         to: '',
     },
     {
@@ -39,7 +39,7 @@ export const data = [
         id: 5, 
         title: 'Monetize',
         text: 'See The Monetize ',
-        image: monetize,
+        image: group,
         to: '',
     },
     {
